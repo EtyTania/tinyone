@@ -1,0 +1,234 @@
+/*Extra small devices (portrait phones, less than 576px)*/
+@media (max-width: 575.98px) { 
+/*head*/
+header{
+	padding: 10px 0 !important;
+}
+.menu ul li a {
+    font-size: 18px;
+    padding: 6px 0 !important;
+    text-align: right;
+}
+/*slider*/
+.s_cont p {
+    margin-bottom: 20px;
+}
+.s_cont h2 {
+    margin: 15px 0;
+}
+.s_cont {
+    margin-top: 25px;
+    
+}
+/*icon*/
+.s_icon ul li i {
+    margin-right: 20px;
+    font-size: 35px;
+}
+/*button*/
+.com_car [data-bs-target] {
+    width: 10px;
+    height: 10px;
+    }
+.com_car {
+    bottom: -65px;
+} 
+/*feature*/
+.feature {
+    padding: 50px 0 70px 0;
+}
+.c_h{
+	margin-bottom: 10px;
+	font-size: 25px;
+}
+.c_p{
+	line-height: 25px;
+	font-size: 17px;
+}
+.f_txt{
+	text-align: center;
+}
+.f_service{
+	margin-top: 30px;
+}
+.f_txt h1{
+	font-size: 20px;
+	
+}
+.f_icon i{
+	
+	font-size: 35px;
+}
+/*contact*/
+.contact{
+	padding: 50px 0 70px 0;
+}
+.c_form{
+	padding: 25px 0 25px 0;
+}
+.c_icon{
+	text-align: center;
+	margin: 15px 0;
+}
+.c_icon ul li{
+	margin-right: 25px !important;
+}
+/*footer*/
+.footer{
+	text-align: center;
+	padding-bottom: 50px;
+}
+.footer1{
+	margin-bottom: 30px;
+}
+.footer2 {
+    margin-bottom: 30px;
+}
+/*footer*/
+}
+
+/*Small devices (landscape phones, 576px and up)*/
+@media (min-width: 576px) and (max-width: 767.98px) {
+/*head*/
+.menu ul li a {
+  
+    padding: 9px 0 !important;
+    text-align: right;
+}
+/*slider*/
+.s_cont p {
+    margin-bottom: 20px;
+}
+.s_cont h2 {
+    margin: 15px 0;
+}
+.s_cont {
+    margin-top: 25px;
+ 
+}
+/*icon*/
+.s_icon ul li i {
+    margin-right: 20px;
+    font-size: 35px;
+}
+/*button*/
+.com_car [data-bs-target] {
+    width: 10px;
+    height: 10px;
+    }
+.com_car {
+    bottom: -65px;
+} 
+/*feature*/
+.feature {
+    padding: 50px 0 70px 0;
+}
+.c_h{
+	margin-bottom: 10px;
+	font-size: 25px;
+}
+.c_p{
+	line-height: 25px;
+	font-size: 17px;
+}
+.f_txt{
+	text-align: center;
+}
+.f_service{
+	margin-top: 30px;
+}
+.f_txt h1{
+
+	font-size: 20px;
+}
+.f_icon i{
+	
+	font-size: 35px;
+
+}
+
+/*contact*/
+.contact{
+	padding: 50px 0 70px 0;
+}
+.c_form{
+	padding: 25px 0 25px 0;
+}
+.c_icon{
+	text-align: center;
+	margin: 15px 0;
+}
+.c_icon ul li{
+	margin-right: 25px !important;
+}
+/*footer*/
+.footer{
+	text-align: center;
+	padding-bottom: 70px;
+}
+.footer1{
+	margin-bottom: 30px;
+}
+/*footer*/
+}
+
+/*Medium devices (tablets, 768px and up)*/
+@media (min-width: 768px) and (max-width: 991.98px) {
+/*head*/
+.menu ul li a {
+  
+    padding: 9px 0 !important;
+    text-align: right;
+}
+.f_service{
+	margin-top: 50px;
+}
+.feature{
+	    padding: 70px 0 90px 0;
+
+}
+/*contact*/
+.contact{
+	padding: 50px 0 70px 0;
+}
+.c_icon{
+	text-align: center;
+	margin: 20px 0;
+}
+.c_icon ul li{
+	margin-right: 25px !important;
+}
+/*footer*/
+.footer{
+
+	padding-bottom: 90px;
+}
+.footer1{
+	margin-bottom: 30px;
+}
+/*footer*/
+ }
+
+/*Large devices (desktops, 992px and up)*/
+@media (min-width: 992px) and (max-width: 1199.98px) { 
+/*head*/
+.menu ul li a {
+    
+    padding: 0 29px !important;
+}
+/*feature*/
+.feature {
+    padding: 70px 0 90px 0;
+}
+/*footer*/
+.footer{
+	padding-bottom: 100px;
+}
+/*footer*/
+}
+
+/*Large devices (desktops, 992px and up)*/
+@media (min-width: 1200px) and (max-width: 1399.98px) { }
+
+/*Extra extra large devices (large desktops, 1400px and up)*/
+@media (min-width: 1400px) { }
